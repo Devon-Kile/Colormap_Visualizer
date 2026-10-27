@@ -1,0 +1,19 @@
+{
+    "author": "Devon Kile",
+    "description": "Exports a standalone html colormap viewer",
+    "labels": [
+    ],
+    "licensing": {
+        "licenses": [
+        ],
+        "product-codes": [
+        ]
+    },
+    "software-revision": "398",
+    "software-version": "ZEISS INSPECT 2025 Service Pack 3",
+    "tags": [
+    ],
+    "title": "Colormap_Visualizer",
+    "uuid": "d7a2115c-68e2-4511-8624-161f5dc31aff",
+    "version": "1.0.7"
+}

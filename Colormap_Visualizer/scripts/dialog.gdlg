@@ -1,0 +1,156 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Select Colormap",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            },
+            {
+                "columns": 1,
+                "fast_filter": false,
+                "name": "colormap",
+                "rows": 1,
+                "supplier": "custom",
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::point3d"
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "name": "label_1",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Ouput File",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            },
+            {
+                "columns": 1,
+                "default": "",
+                "file_types": [
+                    {
+                        "description": "All files",
+                        "name": "*.html"
+                    }
+                ],
+                "file_types_default": "*.html",
+                "limited": true,
+                "name": "file",
+                "rows": 1,
+                "selection_type": "new",
+                "title": {
+                    "id": "",
+                    "text": "Choose File",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::file"
+            }
+        ],
+        [
+            {
+                "button_type": "push",
+                "columns": 2,
+                "icon": "AAAAAA==",
+                "icon_file_name": "",
+                "icon_size": {
+                    "value": "icon"
+                },
+                "icon_system_size": {
+                    "value": "default"
+                },
+                "icon_system_type": {
+                    "value": "ok"
+                },
+                "icon_type": {
+                    "value": "none"
+                },
+                "name": "button",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Generate HTML Visualizer",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "button::pushbutton"
+            },
+            {
+            }
+        ],
+        [
+            {
+                "columns": 2,
+                "monospace": false,
+                "name": "log",
+                "rows": 1,
+                "save_dialog_title": {
+                    "id": "",
+                    "text": "Save Log File",
+                    "translatable": true
+                },
+                "scroll_automatically": true,
+                "show_save": false,
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "display::log",
+                "word_wrap": true
+            },
+            {
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "automatic",
+    "size": {
+        "height": 441,
+        "width": 861
+    },
+    "sizemode": "fixed",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Colormap Visualizer Export",
+        "translatable": true
+    }
+}
